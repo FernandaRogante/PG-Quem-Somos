@@ -1,0 +1,39 @@
+@charset "UT8";
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --cor001:#F2BE22;
+    --cor002:#0B2B40;
+    --cor003:#30A5BF;
+    --cor004:#A6874E;
+
+    --fonte-base:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-destaque: 'PT Sans Caption', sans-serif;
+    --fonte-padrao:'Signika Negative', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+header > p{
+    background-color: var(--cor002);
+    color: white;
+    padding: 5px;
+    text-indent: 10px;
+}
+header > p > span > a{
+    background-color:var(--cor002);
+    padding: 6px;
+    
+}
+header > p > span{
+    margin-left: 850px;
+}
+
+header > h1{
+    background-color: white;
+    padding: 30px;
+}
