@@ -18,6 +18,9 @@
     margin: 0px;
     padding: 0px; 
 }
+html,body{
+    min-height: 100vh;
+}
 
 header > p{
     background-color: var(--cor002);
@@ -39,6 +42,7 @@ header > h1{
     background-color:white;
     color: var(--cor002);
     padding: 30px;
+    font-variant: small-caps;
     font-family: var(--fonte-destaque);
     font-size: 3.9em;
     text-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.37);
@@ -69,6 +73,11 @@ nav > :hover{
     padding: 1px;
     border-bottom: 10px;
 }
+
+main {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 main > h1{
     font-family: var(--fonte-destaque);
     font-size: 2em;
@@ -76,29 +85,31 @@ main > h1{
     color: var(--cor002);
     margin-top: 30px;
     margin-bottom: 80px;
-    text-indent: 30px;   
+    text-indent: 30px;  
 }
 main > section{
-    width: 1000px;
-    margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.466);
-    text-align: justify;
-    margin-left: 20px;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
-main  > h1{
-    color: var(--cor002);
+main > section> p{
+    font-size: 1.5em;
+    line-height: 1.3em;
+    padding-left: 30px;
     font-family: var(--fonte-padrao);
-    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.137);
+    width: 500px;
     
 }
-main > section >h2{
-    margin-bottom: 30px;
+section.imgem1 > h2{
     font-family: var(--fonte-padrao);
+    color: white;
 }
+
 section#img01{
-    background-image: url(imagens/tecfull.jpg);
-    background-position: center;
+    background-image: url(imagens/tecfull800.jpg);
+    background-position:left;
 }
 footer{
     background-color: var(--cor002);
+    padding: 50px;
 }
