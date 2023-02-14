@@ -27,6 +27,7 @@ header > p{
     color:var(--cor004);
     padding: 6px;
     text-indent: 10px;
+    
 }
 header > p > span > a{
     background-color:var(--cor002);
@@ -41,7 +42,7 @@ header > p > span{
 header > h1{
     background-color:white;
     color: var(--cor002);
-    padding: 30px;
+    padding: 20px;
     font-variant: small-caps;
     font-family: var(--fonte-destaque);
     font-size: 3.9em;
@@ -53,7 +54,8 @@ header > h2{
     font-family: var(--fonte-padrao);
     text-indent: 10px;
     font-size: 2.5em;
-    padding: 30px;
+    padding: 15px;
+    
     
 }
 header > nav {
@@ -76,16 +78,18 @@ nav > :hover{
 
 main {
     padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-bottom: 15vh;
+    padding-right: 0px;
 }
 main > h1{
-    font-family: var(--fonte-destaque);
-    font-size: 2em;
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
     font-weight: bold;
     color: var(--cor002);
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 80px;
-    text-indent: 30px;  
+    text-indent: 30px;
+     
 }
 main > section{
     padding-top: 20vh;
@@ -96,20 +100,45 @@ main > section> p{
     line-height: 1.3em;
     padding-left: 30px;
     font-family: var(--fonte-padrao);
-    background-color: rgba(0, 0, 0, 0.137);
     width: 500px;
-    
+    color:white;
+    background-color: rgba(0, 0, 0, 0.411);
+    text-shadow: 1px 1px 1px 1px black;   
 }
-section.imgem1 > h2{
+main > section > p > strong{
+    color:var(--cor002);
+}
+section.imagem1 > h2{
     font-family: var(--fonte-padrao);
     color: white;
 }
 
 section#img01{
-    background-image: url(imagens/tecfull800.jpg);
+    background-image: url(imagens/tec1400.jpg);
     background-position:left;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+aside{
+    padding: 0px;
+    margin-bottom: 90px;
+    margin-top: 10px;
+}
+aside > h1{
+    background-color: var(--cor004);
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 1.8em;
+}
+    
+
+
+
 footer{
     background-color: var(--cor002);
-    padding: 50px;
+    color:var(--cor004);
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-padrao);
 }
